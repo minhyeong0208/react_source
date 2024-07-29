@@ -1,0 +1,14 @@
+.App {
+  padding: 5px;
+}
+
+.black_bar {
+  background-color: black;
+  color: white;
+}
+
+.list {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+

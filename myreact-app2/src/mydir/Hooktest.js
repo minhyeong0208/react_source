@@ -13,7 +13,8 @@ const HookTest = () => {
     // 데이터 변경함수는 set*이 아니어도 된다.
     const [count, setCount] = useState(0);  // Hook이 useState를 지원
     // 이는 클래스에는 없고 function에만 존재한다.
-
+    // 괄호 안에 초기치 입력
+    
     return(
         <div>
             number : {count} &nbsp;

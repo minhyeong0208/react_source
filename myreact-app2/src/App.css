@@ -10,3 +10,10 @@
   padding: 5px;
   display: flex;
 }
+
+/* 이미지 읽기용 */
+.img_bg {
+  width: 200px;
+  height: 200px;
+  background-image: url('./pic2.png');
+}
