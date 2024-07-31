@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import GugudanForm from "./GugudanForm";
+import React from "react";
 
 const Gugudan = ({dan}) => {
     const num = [1,2,3,4,5,6,7,8,9];
