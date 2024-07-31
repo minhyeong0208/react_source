@@ -1,6 +1,6 @@
 import Gugudan from './exam/Gugudan';
+import GugudanForm from './exam/GugudanForm';
 import Jikwon from './exam/Jikwon';
-
 import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       </nav>
       <hr/>
       <Routes>
-        <Route path='/gugudan' element={<Gugudan/>}></Route> 
+        <Route path='/gugudan' element={<GugudanForm/>}></Route> 
         <Route path='/jikwon' element={<Jikwon/>}></Route> 
       </Routes>
     </div>

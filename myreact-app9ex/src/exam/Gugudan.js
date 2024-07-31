@@ -1,26 +1,12 @@
 import React, { useState } from "react";
+import GugudanForm from "./GugudanForm";
 
-const Gugudan = () => {
-    const [dan, setDan] = useState(0);
+const Gugudan = ({dan}) => {
     const num = [1,2,3,4,5,6,7,8,9];
-
-    const onChange = (e) => {
-        setDan(e.target.value);
-    }
-
-    const onClick = () => {
-        setDan(dan)
-        console.log(dan);
-    }
-
-    return(
-        <div>    
-            단 입력 : 
-            <input type="text" value={dan} onChange={onChange}/>
-            {/*<button onClick={onClick}>계산</button>*/}
-
+    return( 
+        <div>
             {num.map((num, index) => (
-                <div>{dan} *{num} = {num * dan}</div>
+                <div>{dan} * {num} = {num * dan}</div>
             ))}
         </div>
     );
