@@ -1,12 +1,12 @@
-div {
-    border: 2px solid red;
+div#use {
+    border: 2px solid rgb(172, 252, 106);
     margin: 5px;
     padding: 5px;
     margin-right: 100px;
 }
 
 div#super {
-    border: 2px dotted blue;
+    border: 2px solid rgb(255, 169, 119);
     margin: 5px;
     padding: 5px;
     margin-right: 100px;

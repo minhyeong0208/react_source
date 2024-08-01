@@ -17,7 +17,7 @@ export default class ShowNumber extends Component {
 
     render() {
         return (
-            <div>
+            <div id="use">
                 <h2>Show Number</h2>
                 {/* 방법 1 : Redux를 사용하지 않은 경우 활성화
                 <input type="text" value={this.props.number} readOnly /> 

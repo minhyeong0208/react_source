@@ -8,7 +8,7 @@ export default class AddNumber extends Component {
 
     render() {
         return (
-            <div>
+            <div id="use">
                 <h2>Add Number</h2>
                 {/* + 버튼 클릭 시, size값이 상위 컴포넌트로 전달될 수 있게 onClick을 구현 
                     props로 전달 받은 onClick 함수를 호출하는데 현재 컴포넌트의 state인 size값을 전달한다.

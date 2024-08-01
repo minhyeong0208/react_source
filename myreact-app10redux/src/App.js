@@ -8,7 +8,7 @@ class App extends Component {
 
     render() {
         return(
-            <div className='App'>
+            <div id='use'>
             <h2>Main</h2>
             {/* App 소유 state변수 number에 size(AddNumberSuper가 전달한 값)을 더한다. */}
             
