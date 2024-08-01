@@ -1,7 +1,7 @@
-import Gugudan from './exam/Gugudan';
 import GugudanForm from './exam/GugudanForm';
 import Jikwon from './exam/Jikwon';
 import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 
 function App() {
   return (
